@@ -1,5 +1,4 @@
 import sys
-from get_sidebar import GenerateSidebar
 
 CONTENT = """
 <div class="video-container">
@@ -17,7 +16,7 @@ CONTENT = """
 ```
 """
 
-class Generate(GenerateSidebar):
+class Generate():
     def __init__(self, filename, video_id):
         self.filename = filename.capitalize()
         self.video_id = video_id
@@ -30,7 +29,6 @@ class Generate(GenerateSidebar):
         self.write(f"# {self.filename}")
         self.write(CONTENT.format(self.video_id))
         self.f.close()
-        self.get_sidebar()
 
 if __name__ == "__main__":
     try:

@@ -27,7 +27,7 @@ No more dwelling
 'Cause today I choose to say
 I will love again someday
 So I'm not gonna stay
-Paralyed 'cause I'm not by your side
+Paralyzed 'cause I'm not by your side
 
 Time passes slowly
 Makes me feel lonely
@@ -35,7 +35,7 @@ Gotta stop feeling sorry
 I can't always feel worried
 Mind won't stop spinning
 And I keep on overthinking, all the time
-I hope with time the healing, will mend my soul
+I hope with time the healing will mend my soul
 And I can let you go
 
 But I believe, someday soon I'll learn to overcoming
@@ -44,11 +44,11 @@ No more dwelling
 'Cause today I choose to say
 I will love again someday
 So I'm not gonna stay
-Paralyed 'cause I'm not by your side
+Paralyzed 'cause I'm not by your side
 
 But I believe, that I will be, much better eventually
 But I won't forget our love, ever
-Time heals all, know the time heals all
+Time heals all, know that time heals all
 
 I believe that someday soon, I'll remember you with a smile
 And overcome
