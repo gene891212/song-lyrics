@@ -5,7 +5,6 @@ SUBTITLE = "    * [{}]({})"
 IGNORE_DIRS = [
     ".git",
     "static",
-    ".github"
 ]
 
 
@@ -22,10 +21,11 @@ class GenerateSidebar():
             dirs[:] = [d for d in dirs if d not in IGNORE_DIRS]
             if root == "./":
                 continue
-            title = root.split("./")[-1]
+            title = root.split("./")[-1].capitalize()
             self.write(TITLE.format(title))
-            for file in files:
-                self.write(SUBTITLE.format(file[:-3], f"{title}/{file}"))
+            for file in sorted(files):
+                filename = file[:-3].replace("_", " ").capitalize()
+                self.write(SUBTITLE.format(filename, f"{title}/{file}"))
         self.f.close()
 
 
